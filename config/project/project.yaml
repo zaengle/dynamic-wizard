@@ -1,0 +1,22 @@
+dateModified: 1672861857
+email:
+  fromEmail: admin@test.com
+  fromName: 'Dynamc Wizard'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    a6728ee5-3fbf-4246-9fc0-330a57e4f5ef: Common
+    c79270f6-5bc1-4db5-bf14-ef85b9457d40: 'Dynamc Wizard'
+    dae11e8d-0db4-4155-9f8d-bcaa528cf4cd: 'Dynamc Wizard'
+system:
+  edition: solo
+  live: true
+  name: 'Dynamc Wizard'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
