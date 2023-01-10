@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: quizSteps
+name: 'Quiz Steps'
+propagationMethod: all
+siteSettings:
+  c79270f6-5bc1-4db5-bf14-ef85b9457d40: # Dynamc Wizard
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: e05063ea-4034-4d77-826b-8f7b62ad941d
+type: structure

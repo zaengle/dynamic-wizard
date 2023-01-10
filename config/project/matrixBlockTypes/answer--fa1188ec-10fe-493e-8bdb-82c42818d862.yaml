@@ -1,0 +1,93 @@
+field: b068be73-0c27-4058-ba9d-e92bf5f250d9 # Answers
+fieldLayouts:
+  fc4ec5a7-eab0-4001-8380-e7a142d84eaa:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 03656315-ed28-46ce-ad56-b688ba1f6227 # Answer Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17fe7f16-f907-4725-b872-c16c4ab749c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0007cc1e-03e7-44d5-b343-797e49eaf49e # Answer Proceeds To
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 619bd639-6b95-40d2-a6cb-74e5ccdd87ff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 20fc313c-8a05-451a-a66d-64cdf3a79a66
+        userCondition: null
+fields:
+  0007cc1e-03e7-44d5-b343-797e49eaf49e: # Answer Proceeds To
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: answerProceedsTo
+    instructions: null
+    name: 'Answer Proceeds To'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:3e8e03c0-74ff-4354-8909-2b6bad8f24f5' # Quiz Steps
+      targetSiteId: null
+      validateRelatedElements: true
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  03656315-ed28-46ce-ad56-b688ba1f6227: # Answer Title
+    columnSuffix: lrjayfuu
+    contentColumnType: text
+    fieldGroup: null
+    handle: answerTitle
+    instructions: null
+    name: 'Answer Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: answer
+name: Answer
+sortOrder: 1

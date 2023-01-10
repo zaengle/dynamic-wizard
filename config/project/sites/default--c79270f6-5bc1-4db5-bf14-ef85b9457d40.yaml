@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: 'Dynamc Wizard'
 primary: true
-siteGroup: dae11e8d-0db4-4155-9f8d-bcaa528cf4cd
+siteGroup: dae11e8d-0db4-4155-9f8d-bcaa528cf4cd # Dynamc Wizard
 sortOrder: 1

@@ -1,13 +1,31 @@
-dateModified: 1672861857
+dateModified: 1673367684
 email:
   fromEmail: admin@test.com
   fromName: 'Dynamc Wizard'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    a6728ee5-3fbf-4246-9fc0-330a57e4f5ef: Common
-    c79270f6-5bc1-4db5-bf14-ef85b9457d40: 'Dynamc Wizard'
-    dae11e8d-0db4-4155-9f8d-bcaa528cf4cd: 'Dynamc Wizard'
+    1ee47bf9-047b-4680-ac80-930a20f04c31: 'Skip to Question' # Skip to Question
+    2bb355d7-5c7f-49be-96f3-ca2173a669a8: 'Allow Skip' # Allow Skip
+    3e8e03c0-74ff-4354-8909-2b6bad8f24f5: 'Quiz Steps' # Quiz Steps
+    4bc377f9-3643-4feb-bcf3-b55b6c00b434: 'Next To' # Next To
+    0007cc1e-03e7-44d5-b343-797e49eaf49e: 'Answer Proceeds To' # Answer Proceeds To
+    7264a122-d9f4-4000-b3af-ebc442a60adf: 'Question Type' # Question Type
+    03656315-ed28-46ce-ad56-b688ba1f6227: 'Answer Title' # Answer Title
+    a6728ee5-3fbf-4246-9fc0-330a57e4f5ef: Common # Common
+    b068be73-0c27-4058-ba9d-e92bf5f250d9: Answers # Answers
+    b5f86973-f4a7-4af0-9df9-7d80ebbcb8b7: Interstitial # Interstitial
+    c79270f6-5bc1-4db5-bf14-ef85b9457d40: 'Dynamc Wizard' # Dynamc Wizard
+    dae11e8d-0db4-4155-9f8d-bcaa528cf4cd: 'Dynamc Wizard' # Dynamc Wizard
+    eeeb5080-3351-4dc0-90d4-d6a0ef4ad195: Question # Question
+    f3d09543-1e2e-4b90-a26c-428767003144: 'Question Description' # Question Description
+    f195278e-def7-49fe-8d0c-1a8fcc3b9fe7: 'Back To' # Back To
+    fa1188ec-10fe-493e-8bdb-82c42818d862: Answer # Answer
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

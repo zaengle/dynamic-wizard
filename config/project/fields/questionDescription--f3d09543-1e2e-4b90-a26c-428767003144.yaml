@@ -1,0 +1,27 @@
+columnSuffix: cqivpwbs
+contentColumnType: text
+fieldGroup: a6728ee5-3fbf-4246-9fc0-330a57e4f5ef # Common
+handle: questionDescription
+instructions: null
+name: 'Question Description'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

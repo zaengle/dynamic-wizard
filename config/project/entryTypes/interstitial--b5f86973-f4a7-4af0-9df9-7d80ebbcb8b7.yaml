@@ -1,0 +1,86 @@
+fieldLayouts:
+  879c297c-7930-45de-be10-8da96c5cca4a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 055e22dc-265e-48cb-a2d6-b7bd867b516e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f3d09543-1e2e-4b90-a26c-428767003144 # Question Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 193806d1-3a2d-4b86-b542-e74831a25f4a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            style: tip
+            tip: 'If neither of the pagination fields is used, pagination will not be shown to the user. '
+            type: craft\fieldlayoutelements\Tip
+            uid: 5fa6f722-0989-4198-8b70-9dbfa18ed448
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: f195278e-def7-49fe-8d0c-1a8fcc3b9fe7 # Back To
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e29938ee-dc2d-451a-ada6-2241decea883
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4bc377f9-3643-4feb-bcf3-b55b6c00b434 # Next To
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3346b29-1007-4e24-b641-08f4a2906412
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: b0805728-dc24-4374-b5d2-56b1216e0bac
+        userCondition: null
+handle: interstitial
+hasTitleField: true
+name: Interstitial
+section: 3e8e03c0-74ff-4354-8909-2b6bad8f24f5 # Quiz Steps
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

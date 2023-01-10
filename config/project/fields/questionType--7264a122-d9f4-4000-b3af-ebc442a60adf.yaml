@@ -1,0 +1,45 @@
+columnSuffix: mxhjyeyc
+contentColumnType: string
+fieldGroup: a6728ee5-3fbf-4246-9fc0-330a57e4f5ef # Common
+handle: questionType
+instructions: null
+name: 'Question Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Single Select'
+        -
+          - value
+          - singleSelect
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Multi Select'
+        -
+          - value
+          - multiSelect
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Stepped Range'
+        -
+          - value
+          - steppedRange
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

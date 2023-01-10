@@ -1,0 +1,14 @@
+columnSuffix: ozevihap
+contentColumnType: boolean
+fieldGroup: a6728ee5-3fbf-4246-9fc0-330a57e4f5ef # Common
+handle: allowSkip
+instructions: 'Allow the question to be skipped'
+name: 'Allow Skip'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

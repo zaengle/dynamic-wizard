@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a6728ee5-3fbf-4246-9fc0-330a57e4f5ef # Common
+handle: answers
+instructions: null
+name: Answers
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_answers}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

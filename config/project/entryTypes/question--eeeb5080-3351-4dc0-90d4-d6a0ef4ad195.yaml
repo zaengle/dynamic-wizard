@@ -1,0 +1,122 @@
+fieldLayouts:
+  84b083cc-4e9d-4dfd-9586-e85bd801990e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7fc43fcf-1fdf-4c73-acf2-75b747a5764a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f3d09543-1e2e-4b90-a26c-428767003144 # Question Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75a21f4c-eaa1-4fcd-95da-2924567b5b4a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7264a122-d9f4-4000-b3af-ebc442a60adf # Question Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32ae2c9f-2d2b-4dc7-a9d3-dde77f94e948
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: dd510894-c1b8-4356-8b86-5d1943461213
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: b068be73-0c27-4058-ba9d-e92bf5f250d9 # Answers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43c1650b-abbe-46d0-938b-7075c28b246d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 0d3097bb-5924-4f28-b7d0-352021fb7730
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 2bb355d7-5c7f-49be-96f3-ca2173a669a8 # Allow Skip
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5894ef8-2a6f-42b3-a9ed-55803867e691
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 2bb355d7-5c7f-49be-96f3-ca2173a669a8 # Allow Skip
+                  uid: c5597677-aea9-4725-8749-9189ecc50da3
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 1ee47bf9-047b-4680-ac80-930a20f04c31 # Skip to Question
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4dc76675-37c5-49d1-8501-6a3c0ca4da39
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d3148cde-d6a3-4d20-b72a-8b32e8c8b3be
+        userCondition: null
+handle: question
+hasTitleField: true
+name: Question
+section: 3e8e03c0-74ff-4354-8909-2b6bad8f24f5 # Quiz Steps
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
