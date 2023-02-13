@@ -1,7 +1,7 @@
-dateModified: 1673367684
+dateModified: 1673384649
 email:
   fromEmail: admin@test.com
-  fromName: 'Dynamc Wizard'
+  fromName: 'Dynamic Wizard'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
@@ -13,10 +13,10 @@ meta:
     7264a122-d9f4-4000-b3af-ebc442a60adf: 'Question Type' # Question Type
     03656315-ed28-46ce-ad56-b688ba1f6227: 'Answer Title' # Answer Title
     a6728ee5-3fbf-4246-9fc0-330a57e4f5ef: Common # Common
-    b068be73-0c27-4058-ba9d-e92bf5f250d9: Answers # Answers
+    b068be73-0c27-4058-ba9d-e92bf5f250d9: Answers.jsx # Answers.jsx
     b5f86973-f4a7-4af0-9df9-7d80ebbcb8b7: Interstitial # Interstitial
-    c79270f6-5bc1-4db5-bf14-ef85b9457d40: 'Dynamc Wizard' # Dynamc Wizard
-    dae11e8d-0db4-4155-9f8d-bcaa528cf4cd: 'Dynamc Wizard' # Dynamc Wizard
+    c79270f6-5bc1-4db5-bf14-ef85b9457d40: 'Dynamic Wizard' # Dynamic Wizard
+    dae11e8d-0db4-4155-9f8d-bcaa528cf4cd: 'Dynamic Wizard' # Dynamic Wizard
     eeeb5080-3351-4dc0-90d4-d6a0ef4ad195: Question # Question
     f3d09543-1e2e-4b90-a26c-428767003144: 'Question Description' # Question Description
     f195278e-def7-49fe-8d0c-1a8fcc3b9fe7: 'Back To' # Back To
@@ -26,10 +26,14 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
-  name: 'Dynamc Wizard'
+  name: 'Dynamic Wizard'
   schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:

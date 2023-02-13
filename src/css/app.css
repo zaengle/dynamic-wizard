@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@layer components {
+    .arrow-down {
+        @apply relative bg-blue-500 border border-blue-500;
+
+        &:after {
+            border-color: theme('colors.blue.500') transparent transparent transparent;
+            top: 100%;
+            left: 50%;
+            content: "";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-width: 12px;
+            margin-left: -12px;
+        }
+    }
+}
+
+@tailwind utilities;

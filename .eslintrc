@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "@zaengle/eslint-config-react",
+        "plugin:react/jsx-runtime"
+    ]
+}

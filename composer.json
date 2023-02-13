@@ -1,7 +1,8 @@
 {
   "require": {
-    "craftcms/cms": "4.3.6.1",
+    "craftcms/cms": "4.3.8.2",
     "craftcms/redactor": "3.0.3",
+    "nystudio107/craft-twigpack": "4.0.0-beta.4",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -27,6 +28,12 @@
   "scripts": {
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
+    ],
+    "post-update-cmd": [
+      "@php craft clear-caches/all"
+    ],
+    "post-install-cmd": [
+      "@php craft clear-caches/all"
     ]
   }
 }

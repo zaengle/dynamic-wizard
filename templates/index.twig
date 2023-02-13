@@ -6,10 +6,12 @@
     <title>Dynamic Wizard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="referrer" content="origin-when-cross-origin" />
+    {{ craft.twigpack.includeCssModule("/dist/app.css") }}
+    {{ craft.twigpack.includeJsModule("/dist/app.js", true) }}
 </head>
-<body>
+<body class="container py-12">
 
-<h1>Dynamic Wizard</h1>
+<h1 class="text-5xl font-bold text-blue-700 text-center">Dynamic Wizard</h1>
 
 </body>
 </html>

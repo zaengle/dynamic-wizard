@@ -61,7 +61,7 @@ fieldLayouts:
             userCondition: null
           -
             elementCondition: null
-            fieldUid: b068be73-0c27-4058-ba9d-e92bf5f250d9 # Answers
+            fieldUid: b068be73-0c27-4058-ba9d-e92bf5f250d9 # Answers.jsx
             instructions: null
             label: null
             required: false

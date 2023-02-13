@@ -2,7 +2,7 @@ baseUrl: $PRIMARY_SITE_URL
 handle: default
 hasUrls: true
 language: en-US
-name: 'Dynamc Wizard'
+name: 'Dynamic Wizard'
 primary: true
-siteGroup: dae11e8d-0db4-4155-9f8d-bcaa528cf4cd # Dynamc Wizard
+siteGroup: dae11e8d-0db4-4155-9f8d-bcaa528cf4cd # Dynamic Wizard
 sortOrder: 1

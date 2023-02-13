@@ -4,7 +4,7 @@ handle: quizSteps
 name: 'Quiz Steps'
 propagationMethod: all
 siteSettings:
-  c79270f6-5bc1-4db5-bf14-ef85b9457d40: # Dynamc Wizard
+  c79270f6-5bc1-4db5-bf14-ef85b9457d40: # Dynamic Wizard
     enabledByDefault: true
     hasUrls: false
     template: null
