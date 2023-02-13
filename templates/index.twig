@@ -13,5 +13,46 @@
 
 <h1 class="text-5xl font-bold text-blue-700 text-center">Dynamic Wizard</h1>
 
+{% set questions = craft.entries().section('quizSteps').with([
+    'skipToQuestion',
+    'answers.answer',
+    'answers.answer:answerId',
+    'answers.answer:answerProceedsTo',
+    'backTo',
+    'nextTo'
+]).collect()
+%}
+
+{% set quizSteps = [] %}
+
+{% for question in questions %}
+    {% if question.type.handle == 'question' %}
+        {% set quizSteps = quizSteps|merge([{
+            id: question.uid,
+            type: question.questionType.value,
+            title: question.title,
+            description: question.questionDescription,
+            allowSkip: question.allowSkip,
+            skipToQuestion: question.skipToQuestion.first().uid ?? null,
+            answers: question.answers|map((answer) => {
+                id: answer.uid,
+                title: answer.answerTitle,
+                proceedsTo: answer.answerProceedsTo.first().uid ?? null,
+            }),
+        }]) %}
+    {% elseif question.type.handle == 'interstitial' %}
+        {% set quizSteps = quizSteps|merge([{
+            id: question.uid,
+            type: question.type.handle,
+            title: question.title,
+            description: question.questionDescription,
+            backTo: question.backTo.first().uid ?? null,
+            nextTo: question.nextTo.first().uid ?? null,
+        }]) %}
+    {% endif %}
+{% endfor %}
+
+<div id="quiz" data-questions="{{ quizSteps | json_encode }}"></div>
+
 </body>
 </html>
